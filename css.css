@@ -13,12 +13,12 @@ body {
   border: none !important;
 }
 
-.btn-success:hover {
-  background-color: #df1b14 !important;
+.btn-success:visited {
+  background-color: #1f1f1f !important;
 }
 
-.btn-success:visited {
-  background-color: #1f1f1f;
+.btn-success:hover {
+  background-color: #df1b14 !important;
 }
 
 .section {
