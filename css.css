@@ -11,6 +11,7 @@ body {
 
 .btn-success {
   border: none !important;
+  background-color: #1f1f1f !important;
 }
 
 .btn-success:visited {
