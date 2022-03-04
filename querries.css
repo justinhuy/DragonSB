@@ -14,6 +14,17 @@
   .container {
     height: 100vh;
   }
+  .btn-success {
+    border: none !important;
+  }
+  
+  .btn-success:hover {
+    background-color: #df1b14 !important;
+  }
+  
+  .btn-success:visited {
+    background-color: #1f1f1f;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -31,6 +42,17 @@
   }
   .container {
     height: 100vh;
+  }
+  .btn-success {
+    border: none !important;
+  }
+  
+  .btn-success:hover {
+    background-color: #df1b14 !important;
+  }
+  
+  .btn-success:visited {
+    background-color: #1f1f1f;
   }
 }
 
