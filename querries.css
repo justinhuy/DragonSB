@@ -3,7 +3,7 @@
     background-image: url(background.jpg);
   }
   .contact-details {
-    padding: 20px 6px 20px 6px !important;
+    padding: 10px 10px 10px 10px !important;
   }
   .contact-icon {
     font-size: 1.4rem !important;
@@ -11,10 +11,9 @@
   .fa-brands {
     font-size: 1.4rem !important;
   }
-  .container {
-    height: 100vh;
-
-}
+  .content a {
+    padding: 6px 12px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -22,7 +21,7 @@
     background-image: url(background.jpg);
   }
   .contact-details {
-    padding: 20px 8px 20px 8px !important;
+    padding: 10px 12px 10px 12px !important;
   }
   .contact-icon {
     font-size: 1.6rem !important;
@@ -30,14 +29,13 @@
   .fa-brands {
     font-size: 1.6rem !important;
   }
-  .container {
-    height: 100vh;
+  .content a {
+    padding: 6px 12px;
   }
- 
 }
 
 @media (min-width: 1025px) {
   body {
     background-image: url(background.jpg);
   }
-
+}

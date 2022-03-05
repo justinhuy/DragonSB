@@ -1,15 +1,26 @@
 body {
+  width: 100%;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+@font-face {
+  font-family: "LongShot";
+  src: url(Long_Shot.ttf);
+}
+
 #logo {
   text-align: center;
 }
 
+span {
+  font-size: 1.6rem;
+}
+
 .btn-success {
+  margin: 10px 0;
   border: none !important;
   background-color: #1f1f1f !important;
 }
@@ -22,6 +33,15 @@ body {
   background-color: #df1b14 !important;
 }
 
+.btn-telegram {
+  margin: 10px 0;
+  background-color: #1f1f1f !important;
+}
+
+.btn-telegram:hover {
+  background-color: #df1b14 !important;
+}
+
 .section {
   background-color: rgba(100, 130, 189, 0.441);
   margin: 0 10%;
@@ -31,54 +51,20 @@ body {
 }
 
 .container {
-  height: 100vh;
+  overflow-y: auto;
 }
 
-#cap {
-  color: rgb(0, 0, 0);
+.flag {
+  font-size: 15px;
+}
+
+footer .subtext {
+  font-size: 30px;
+  color: #f5f0f0;
+  font-family: "LongShot";
   text-align: center;
-  font-size: 20px;
-  margin: 10px 0 10px 0;
-  font-weight: bold;
+  padding: 3rem;
 }
-
-/* Dropdown */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(22, 20, 20);
-  min-width: 140px;
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: rgb(165, 151, 151);
-  padding: 3px 6px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/* .dropdown:hover .dropbtn {
-  background-color: ;
-} */
 
 .contact-section {
   display: flex;
@@ -115,6 +101,17 @@ body {
   color: black;
 }
 
+.btn-sm {
+  background-color: rgba(31, 31, 31, 0.459) !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-sm:hover {
+  text-decoration: none;
+  background-color: #df1b14 !important;
+}
+
 .facebook:hover {
   color: rgb(25, 25, 230);
 }
@@ -125,6 +122,10 @@ body {
 
 .twitter:hover {
   color: rgb(75, 75, 187);
+}
+
+.telegram {
+  color: white;
 }
 
 .telegram:hover {
@@ -155,6 +156,7 @@ body {
   font-size: 1.4rem;
   text-shadow: 2px 1px 1px #1f1f1f;
   transition: transform 0.2s ease-out;
+  padding: 10px 14px 10px 14px !important;
 }
 
 .contact-details:hover {
